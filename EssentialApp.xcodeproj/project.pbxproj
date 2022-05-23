@@ -19,8 +19,6 @@
 		75FA22982837DAA3008E89F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA22972837DAA3008E89F1 /* Assets.xcassets */; };
 		75FA229B2837DAA3008E89F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FA22992837DAA3008E89F1 /* LaunchScreen.storyboard */; };
 		75FA22A62837DAA4008E89F1 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA22A52837DAA4008E89F1 /* EssentialAppTests.swift */; };
-		75FA22B02837DAA4008E89F1 /* EssentialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA22AF2837DAA4008E89F1 /* EssentialAppUITests.swift */; };
-		75FA22B22837DAA4008E89F1 /* EssentialAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA22B12837DAA4008E89F1 /* EssentialAppUITestsLaunchTests.swift */; };
 		75FA22C12837DF08008E89F1 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FA22BF2837DF08008E89F1 /* EssentialFeed.framework */; };
 		75FA22C22837DF08008E89F1 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75FA22BF2837DF08008E89F1 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75FA22C32837DF08008E89F1 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FA22C02837DF08008E89F1 /* EssentialFeediOS.framework */; };
@@ -77,8 +75,6 @@
 		75FA22A12837DAA4008E89F1 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FA22A52837DAA4008E89F1 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 		75FA22AB2837DAA4008E89F1 /* EssentialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		75FA22AF2837DAA4008E89F1 /* EssentialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITests.swift; sourceTree = "<group>"; };
-		75FA22B12837DAA4008E89F1 /* EssentialAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		75FA22BF2837DF08008E89F1 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FA22C02837DF08008E89F1 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FED96B283B681800522A80 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
@@ -125,7 +121,6 @@
 			children = (
 				75FA228D2837DA9F008E89F1 /* EssentialApp */,
 				75FA22A42837DAA4008E89F1 /* EssentialAppTests */,
-				75FA22AE2837DAA4008E89F1 /* EssentialAppUITests */,
 				75FA228C2837DA9F008E89F1 /* Products */,
 				75FA22BE2837DF08008E89F1 /* Frameworks */,
 			);
@@ -166,15 +161,6 @@
 				752D1D96283B888B0057EF47 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 			);
 			path = EssentialAppTests;
-			sourceTree = "<group>";
-		};
-		75FA22AE2837DAA4008E89F1 /* EssentialAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				75FA22AF2837DAA4008E89F1 /* EssentialAppUITests.swift */,
-				75FA22B12837DAA4008E89F1 /* EssentialAppUITestsLaunchTests.swift */,
-			);
-			path = EssentialAppUITests;
 			sourceTree = "<group>";
 		};
 		75FA22BE2837DF08008E89F1 /* Frameworks */ = {
@@ -342,8 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75FA22B02837DAA4008E89F1 /* EssentialAppUITests.swift in Sources */,
-				75FA22B22837DAA4008E89F1 /* EssentialAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
