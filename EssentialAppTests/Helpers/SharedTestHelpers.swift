@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import EssentialFeed
 
 import Foundation
 
@@ -19,4 +20,8 @@ func anyURL() -> URL {
 
 func anyData() -> Data {
     return Data("any data".utf8)
+}
+
+func uniqueFeed() -> [FeedImage] {
+    return [FeedImage(id: UUID(), description: "any", location: "any", url: anyURL())]
 }
