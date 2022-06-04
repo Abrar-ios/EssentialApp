@@ -41,6 +41,7 @@
 		755FD002284BA2B4009F58F2 /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755FCFF9284BA2B4009F58F2 /* UIControl+TestHelpers.swift */; };
 		755FD003284BA2B4009F58F2 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755FCFFA284BA2B4009F58F2 /* UIImage+TestHelpers.swift */; };
 		755FD005284BA2EC009F58F2 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755FD004284BA2EC009F58F2 /* FeedUIIntegrationTests.swift */; };
+		755FD007284BA72C009F58F2 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755FD006284BA72C009F58F2 /* FeedAcceptanceTests.swift */; };
 		75FA228F2837DA9F008E89F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA228E2837DA9F008E89F1 /* AppDelegate.swift */; };
 		75FA22912837DA9F008E89F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FA22902837DA9F008E89F1 /* SceneDelegate.swift */; };
 		75FA22982837DAA3008E89F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75FA22972837DAA3008E89F1 /* Assets.xcassets */; };
@@ -121,6 +122,7 @@
 		755FCFF9284BA2B4009F58F2 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		755FCFFA284BA2B4009F58F2 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		755FD004284BA2EC009F58F2 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
+		755FD006284BA72C009F58F2 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		75FA228B2837DA9F008E89F1 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FA228E2837DA9F008E89F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75FA22902837DA9F008E89F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 				751EEDA7283D441B000323BB /* FeedImageDataLoaderCacheDecoratorTests.swift */,
 				755FD004284BA2EC009F58F2 /* FeedUIIntegrationTests.swift */,
 				755FCFE4284B9F96009F58F2 /* SceneDelegateTests.swift */,
+				755FD006284BA72C009F58F2 /* FeedAcceptanceTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				751EEDA2283D3B3E000323BB /* XCTestCase+FeedLoader.swift in Sources */,
 				751EEDA8283D441B000323BB /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */,
 				755FCFFC284BA2B4009F58F2 /* FeedImageCell+TestHelpers.swift in Sources */,
+				755FD007284BA72C009F58F2 /* FeedAcceptanceTests.swift in Sources */,
 				755FD005284BA2EC009F58F2 /* FeedUIIntegrationTests.swift in Sources */,
 				752D1D9E283B909D0057EF47 /* SharedTestHelpers.swift in Sources */,
 				75FA22A62837DAA4008E89F1 /* EssentialAppTests.swift in Sources */,
