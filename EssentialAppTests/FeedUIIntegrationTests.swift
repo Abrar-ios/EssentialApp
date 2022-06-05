@@ -65,6 +65,21 @@ final class FeedUIIntegrationTests: XCTestCase {
 		loader.completeFeedLoading(with: [image0, image1, image2, image3], at: 1)
 		assertThat(sut, isRendering: [image0, image1, image2, image3])
 	}
+    
+    func test_loadFeedCompletion_rendersSuccessfullyLoadedEmptyFeedAfterNonEmptyFeed() {
+        let image0 = makeImage()
+        let image1 = makeImage()
+        let (sut, loader) = makeSUT()
+
+        sut.loadViewIfNeeded()
+        loader.completeFeedLoading(with: [image0, image1], at: 0)
+        assertThat(sut, isRendering: [image0, image1])
+
+        sut.simulateUserInitiatedFeedReload()
+        loader.completeFeedLoading(with: [], at: 1)
+        assertThat(sut, isRendering: [])
+    }
+
 	
 	func test_loadFeedCompletion_doesNotAlterCurrentRenderingStateOnError() {
 		let image0 = makeImage()
@@ -162,7 +177,7 @@ final class FeedUIIntegrationTests: XCTestCase {
 		XCTAssertEqual(view1?.renderedImage, .none, "Expected no image state change for second view once first image loading completes successfully")
 		
 		let imageData1 = UIImage.make(withColor: .blue).pngData()!
-		loader.completeImageLoading(with: imageData1, at: 1)
+		loader.complefteImageLoading(with: imageData1, at: 1)
 		XCTAssertEqual(view0?.renderedImage, imageData0, "Expected no image state change for first view once second image loading completes successfully")
 		XCTAssertEqual(view1?.renderedImage, imageData1, "Expected image for second view once second image loading completes successfully")
 	}
